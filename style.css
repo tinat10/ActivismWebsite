@@ -1,0 +1,242 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #b9ddf8;
+  margin: 0px;
+  padding: 0px;
+}
+.upper{
+  background-color:lavender; 
+  padding-bottom: 20px;
+}
+
+.box {
+  border: 3px solid white ;
+  width: 250px;
+  height: 200px;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+/*   font-family: 'Poppins', sans-serif; */
+/*   font-family: space-mono, mono;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3; */
+font-family: 'IBM Plex Mono';
+  font-weight: 400;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.1em;
+  background-color: lavender;
+  color: #1682d4;
+}
+
+.boxes {
+  padding: 5px 6px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  align-content: center;
+  justify-content: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #5cb6f9;
+  padding: 5px 6px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.logo{
+  width: 90px;
+  height: 90px;
+  align-content: start;
+  margin: 20px;
+  
+}
+
+.name {
+  font-family: monospace;
+  font-size: 350%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.motto{
+  font-family: monospace;
+  font-size: 140%;
+  margin-top: 0px;
+  display: block;
+}
+
+.headertext{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 0px;
+  color: white;
+}
+
+.link{
+  height: 50px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: 1px solid #b9ddf8;
+  font-family: monospace;
+  cursor: pointer;  
+  display: flex, inline-block;
+  border-radius: 60px;
+  text-align: center;
+  align-content: end;
+  flex-direction: row;
+  line-height: 45px;
+  background-color: #b9ddf8;
+}
+
+.linkdiv{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.link:hover{
+  background-color: #1682d4;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.statistic{
+  text-align: center;
+  font-family: monospace;
+  font-size: 4em;
+  padding-left:150px;
+  padding-right:150px;
+  color: #1682d4;
+}
+
+.info{
+  text-align: center;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.socialMedia{
+  height: 40px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  display: inline-flex;
+  font-family: monospace;  
+  text-align: center;
+  align-content: center;
+    background-color: #1682d4;
+    padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+.soMe{
+  height: 50px;
+  width: 50px;
+  margin: 4px;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+
+}
+
+.text{
+  text-align: center;
+  font-family: monospace;
+}
+
+.statisticimg{
+  margin-top:50px;
+  height:50%;
+  width: 50%;
+}
+
+.goalsheading{
+    text-align: center;
+  font-family: monospace;
+  font-size: 4em;
+  margin-bottom: 0px;
+  color: #1682d4;
+}
+
+.goalpngdiv{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+
+}
+
+.goalpng{
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+    margin-left:100px;
+  margin-right: 100px;
+}
+
+.goalnums{
+  font-family: monospace;
+  font-size: 3em;
+  margin-bottom: 0px;
+  color: #1682d4;
+}
+
+.goalnumsdiv{
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: 10px;
+  justify-content: space-evenly;
+}
+
+h2{
+  font-size: 2em;
+}
+
+.timelineheading{
+      text-align: center;
+  font-family: monospace;
+  font-size: 4em;
+  margin-bottom: 0px;
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+.timeline{
+  
+  background-color: #5cb6f9;
+    margin-top: 20px;
+}
+
+.timelinepng{
+    max-width: 1000px;
+  max-height: 1700px;
+  width: auto;
+  height: auto;
+}
+
+.timelinedesc{
+  color: #b9ddf8;
+  font-family: monospace;
+  font-size: 1.3em;
+}
