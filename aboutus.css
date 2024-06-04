@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: lavender;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #5cb6f9;
+  padding: 5px 6px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.logo{
+  width: 90px;
+  height: 90px;
+  align-content: start;
+  margin: 20px
+}
+
+.name {
+  font-family: monospace;
+  font-size: 350%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.motto{
+  font-family: monospace;
+  font-size: 140%;
+  margin-top: 0px;
+  display: block;
+}
+
+.headertext{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 0px;
+  color: white;
+}   
+
+.link{
+  height: 50px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: 1px solid #b9ddf8;
+  font-family: monospace;
+  cursor: pointer;  
+  display: flex, inline-block;
+  border-radius: 60px;
+  text-align: center;
+  align-content: end;
+  flex-direction: row;
+  line-height: 45px;
+  background-color: #b9ddf8;
+}
+
+.linkdiv{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.link:hover{
+  background-color: #1682d4;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.box {
+  font-family: monospace;
+  margin: 10px;
+  font-size: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #1682d4;
+}
+
+.aboutus {
+  text-align: center;
+  font-family: monospace;
+  font-size: 4em;
+  margin-bottom: 0px;
+  color: #1682d4;
+}
+
+.profileCards{
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
