@@ -1,0 +1,194 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #b9ddf8;
+  margin: 0px;
+  padding: 0px;
+}
+
+.motto{
+  font-family: monospace;
+  font-size: 140%;
+  margin-top: 0px;
+  display: block;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #5cb6f9;
+  padding: 5px 6px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.headertext{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 0px;
+  color: white;
+}
+
+.logo{
+  width: 90px;
+  height: 90px;
+  align-content: start;
+  margin: 20px
+}
+
+.name {
+  font-family: monospace;
+  font-size: 350%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.link{
+  height: 50px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: 1px solid #b9ddf8;
+  font-family: monospace;
+  cursor: pointer;  
+  display: flex, inline-block;
+  border-radius: 60px;
+  text-align: center;
+  align-content: end;
+  flex-direction: row;
+  line-height: 45px;
+  background-color: #b9ddf8;
+}
+
+.linkdiv{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.link:hover{
+  background-color: #1682d4;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.box {
+  border: 3px solid white ;
+  width: 250px;
+  height: 200px;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  font-family: 'IBM Plex Mono';
+  font-weight: 500;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 15px;
+  background-color: lavender;
+  color: #1682d4;
+}
+
+.boxes {
+  padding: 5px 6px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  align-content: center;
+  justify-content: center;
+}
+
+/* .box:hover{
+  /* display: none; */
+/*   background-color: pink;
+} */ 
+/* .box:hover p{
+  display: none;
+} */
+
+
+/* .box:hover:after{
+  content: "link here: ";
+} */
+
+.links{
+  flex-direction: row;
+  text-align: center;
+}
+
+.resource{
+  text-align: center;
+  font-family: monospace;
+  font-size: 4em;
+  margin-bottom: 0px;
+  color: #1682d4;
+}
+
+.resourcespngdiv{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.resourcespng{
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+    margin-left:100px;
+  margin-right: 100px;
+}
+ 
+/* .box:hover.overlay {
+  opacity: 1;
+} */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+/* .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}  */
+
+/* .textAWID:hover.overlay {
+  opacity: 1;
+} */
+
+.resourcedesc{
+  margin: 20px;
+ /* font-size: 20px;*/
+  text-align: center;
+  color: #1682d4;
+  font-family: monospace;
+  font-size: 1.3em;
+}
+
+.hotlines{
+    text-align: center;
+  color: #000000;
+  font-family: monospace;
+  font-size: 15px;
+  padding-bottom: 30px;
+}

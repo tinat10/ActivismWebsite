@@ -1,0 +1,174 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #b9ddf8;
+  margin: 0px;
+  padding: 0px;
+}
+
+.motto{
+  font-family: monospace;
+  font-size: 140%;
+  margin-top: 0px;
+  display: block;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #5cb6f9;
+  padding: 5px 6px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.headertext{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 0px;
+  color: white;
+}
+
+.logo{
+  width: 90px;
+  height: 90px;
+  align-content: start;
+  margin: 20px
+}
+
+.name {
+  font-family: monospace;
+  font-size: 350%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.link{
+  height: 50px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: 1px solid #b9ddf8;
+  font-family: monospace;
+  cursor: pointer;  
+  display: flex, inline-block;
+  border-radius: 60px;
+  text-align: center;
+  align-content: end;
+  flex-direction: row;
+  line-height: 45px;
+  background-color: #b9ddf8;
+}
+
+.linkdiv{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.link:hover{
+  background-color: #1682d4;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.example{
+  text-align: center;
+   
+  font-family: monospace;
+  font-size: 4em;
+  margin-bottom: 0px;
+  color: #1682d4;
+}
+.examplesdesc{
+  color: #1682d4;
+  font-family: monospace;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.icons {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 40px;
+}
+
+.workplace{
+  display: inline-flex;
+  margin-right: 200px;
+  margin-left: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.titles {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+p{
+  font-family: 'IBM Plex Mono';
+  font-size: 15px;
+}
+
+.topics{
+  display: inline-flex;
+  margin-right: 200px;
+  margin-left: 200px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.icons2 {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 40px;
+}
+
+.icons3 {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 40px;
+}
+
+.titles2 {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.descr{
+  align-content: center;
+}
+
+.icons2{
+  float: right;
+  clear: right;
+}
+
+.conclusionSentence {
+  font-family: monospace;
+  align-content: center;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

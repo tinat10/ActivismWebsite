@@ -1,0 +1,165 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #b9ddf8;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #5cb6f9;
+  padding: 5px 6px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.logo{
+  width: 90px;
+  height: 90px;
+  align-content: start;
+  margin: 20px
+}
+
+.name {
+  font-family: monospace;
+  font-size: 350%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.motto{
+  font-family: monospace;
+  font-size: 140%;
+  margin-top: 0px;
+  display: block;
+}
+
+.headertext{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 0px;
+  color: white;
+}   
+
+.link{
+  height: 50px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: 1px solid #b9ddf8;
+  font-family: monospace;
+  cursor: pointer;  
+  display: flex, inline-block;
+  border-radius: 60px;
+  text-align: center;
+  align-content: end;
+  flex-direction: row;
+  line-height: 45px;
+  background-color: #b9ddf8;
+}
+
+.linkdiv{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.link:hover{
+  background-color: #1682d4;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.story{
+  text-align: center;
+  font-family: monospace;
+  font-size: 4em;
+  margin-bottom: 0px;
+  color: #1682d4;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.postItStories {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  display: flex, inline-flex;
+  color: #5cb6f9;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 20px;
+}
+
+.post_it_1 {
+  position: absolute;
+  top: 270px;
+  left: 35px;
+  right: 50px;
+}
+
+.allStories{
+  align-items: center;
+}
+
+.instructions{
+  text-align: center;
+}
+
+.anonStories{
+  height: 50px;
+  width: 100px;
+  border: 1px solid #a8d4f5;
+  font-family: monospace;
+  cursor: pointer;  
+  display: flex;
+  margin: auto;
+  border-radius: 60px;
+  text-align: center;
+  line-height: 45px;
+  align-content: center;
+  justify-content: center;
+}
+
+.anondesc {
+  font-style: italic;
+  margin: 20px;
+ /* font-size: 20px;*/
+  text-align: center;
+  color: #1682d4;
+  font-family: monospace;
+  font-size: 1.3em;
+}
+
+.anonStories:hover{
+  background-color: #1682d4;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.instructions{
+  font-family: monospace;
+  font-style: bold;
+  font-size: 1.5em;
+}
+
+.storytext{
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'IBM Plex Mono';
+  font-weight: 400;
+  font-size: 1.3em;
+}
